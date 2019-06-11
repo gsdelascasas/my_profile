@@ -4,15 +4,15 @@
 
  /*Importing Components Files*/
 
- @import url("C:/Users/nopassword/Desktop/my_profile/css/components/avatar.css");
+ @import url("components/avatar.css");
  
- @import url("C:/Users/nopassword/Desktop/my_profile/css/components/banner.css");
+ @import url("components/banner.css");
 
- @import url("C:/Users/nopassword/Desktop/my_profile/css/components/button.css");
+ @import url("components/button.css");
 
- @import url("C:/Users/nopassword/Desktop/my_profile/css/components/container.css");
+ @import url("components/container.css");
 
- @import url("C:/Users/nopassword/Desktop/my_profile/css/components/card.css");
+ @import url("components/card.css");
  @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,600,700|News+Cycle&display=swap');
  @gray-dark:                 #696969;
  @gray-light:                #cccccc;
@@ -170,7 +170,7 @@ body {
   		width:1000px;
   		height:100% ;
   		background-size: cover;
-  		background-image: linear-gradient(-225deg,rgba(0,0,0,2)0%, rgba(0,0,0,0.6)50%), url("C:/Users/nopassword/Desktop/my_profile/Images/pspeaking.jpg") ;
+  		background-image: linear-gradient(-225deg,rgba(0,0,0,2)0%, rgba(0,0,0,0.6)50%), url("../Images/pspeaking.jpg") ;
   	}
   	.narrow-seg{
   		display: flex;
